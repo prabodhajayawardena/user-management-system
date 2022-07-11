@@ -50,7 +50,7 @@ npm run build
 ## Limitations
 
 ```
--API does not return updated values when updating and creating the users.
--Cannot filter all the users because the API does not give search parameters.
--The sort functionality works only on the selected page because the API does not give all the users at once.
+-reqres.in do not have search endpoint in that case search only work for the currently active page. this also applicable for sort functionality as well.
+-Using their update and create endpoints i have created the functionality but they are not really insert or update the data from their end so i have handled that logic in the application.
+-I have used material UI table to list data but sticky header functionality only works when  apply a fixed height.
 ```
